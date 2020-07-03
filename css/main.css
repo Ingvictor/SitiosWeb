@@ -34,6 +34,7 @@ header nav ul{
 
 header ul a{
     color: grey;
+    font-size: 20px;
 }
 
 .header-main-pic{
@@ -115,7 +116,7 @@ header ul a{
     margin-right: 40px;
 }
 
-.hola{
+.foooter{
     margin-top: 40px;
     height: 80px;
     background-color: gray;
@@ -127,3 +128,5 @@ footer nav{
     background-color: gray;
     box-shadow: none;
 }
+
+/* Pagina de registro */
