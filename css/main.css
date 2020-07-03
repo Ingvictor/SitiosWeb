@@ -5,6 +5,9 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+img{
+    max-width: 100%;
+}
 
 header{
     height: 700px;
@@ -42,3 +45,85 @@ header ul a{
     background-size: cover;
 }
 
+.barra{
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.iconos-index{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    flex-basis: calc(33.3% - 10px);
+}
+
+.icon h3{
+    text-transform:uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px; 
+}
+
+.icon p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+.contacto-index{
+    background-image: url('../assets/img/encuentra.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+}
+.contacto-index h4{
+    margin:30px 0 30px 0;
+}
+.contacto-index p{
+    margin:30px 0 30px 0;
+}
+
+.blog-index{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.blog-index .robot{
+    display: grid;
+    grid-template-columns: 40% 60%;  
+    margin-right: 30px;  
+    margin-bottom: 40px;
+}
+
+.tarjeta{
+    margin-left: 30px;  
+    margin-bottom: 40px;
+}
+
+.card-content h5{
+    margin-top: 0px;
+}
+
+.blog-index .imagen{
+    margin-right: 40px;
+}
+
+.hola{
+    margin-top: 40px;
+    height: 80px;
+    background-color: gray;
+    bottom: 0;
+
+}  
+footer nav{
+    height: 80px;
+    background-color: gray;
+    box-shadow: none;
+}
