@@ -75,7 +75,7 @@ header ul a{
 }
 
 .icon img{
-    max-height: 20vh; 
+    max-height: 25vh; 
 }
 
 .icon h3{
@@ -88,6 +88,8 @@ header ul a{
 .icon p{
     margin-top: 5px;
     margin-bottom: 30px;
+    padding:0px 10px 0px 10px;
+    /* text-align: justify; */
   }
 
 .contacto-index{
@@ -350,4 +352,38 @@ footer nav{
     font-weight: bold;
     padding-left: 20px;
     border-radius: 10px;
+}
+
+/********Contacto*******
+************************
+************************/
+
+.formulario-contacto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 600px;
+}
+
+.formulario{
+    padding: 50px;
+    border: solid 10px #9ccc65 ;
+    border-radius: 40px;
+}
+
+.iconos-contacto{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.iconos-contacto img{
+    width: 10%;
+}
+
+.iconos-contacto span{
+    margin-left: 20px;
+}
+
+.icono-imagen img{
+    width: 50%;
+    margin-left: 15%;
 }
