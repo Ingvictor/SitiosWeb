@@ -9,12 +9,17 @@ img{
     max-width: 100%;
 }
 
-header{
+h1{font-size: 38px; color: #616161;}
+h2{font-size: 32px; color: #616161;}
+h3{font-size: 30px; color: #616161;}
+h4{font-size: 20px; color: #616161;}
+
+.header-index{
     height: 700px;
 }
 
 header nav{
-    height: 90px;
+    height: 100px;
     background-color: white;
     box-shadow: none;
 }
@@ -28,22 +33,26 @@ nav .brand-logo img{
     width: 100px;
 }
 
+nav .logo-nosotros img{
+    width: 200px;
+}
+
 header nav ul{
     height: 100px;
 }
 
 header ul a{
-    color: grey;
+    color: #616161;
     font-size: 20px;
 }
 
 .header-main-pic{
     width: 100%;
-    height: 600px;
-    background-image: url('../assets/img/banner.png');
+    height: 550px;
+    background-image: url('../assets/img/Plantilla.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
 }
 
 .barra{
@@ -134,5 +143,67 @@ footer nav{
     box-shadow: none;
 }
 
-/* Pagina de registro */
+/* Pagina de nosotros **
+************************
+************************/
 
+.tarjeta-nosotros{
+    padding: 5px 24px 24px 24px;
+}
+
+.tarjeta-nosotros h5{
+    color:white;
+    font-weight: bold;
+}
+
+.iconos-miembros { 
+    margin: 0 10px;
+}
+
+.imagenes-nosotros{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagenes-texto{
+    margin-left: 30px;
+    text-align: justify;
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+
+.imagenes-texto h3{
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+/******** Cursos********
+************************
+************************/
+.tarjeta-cursos{
+    height: 450px;
+}
+
+
+/***Cursos-Robótica*****
+************************
+************************/
+.nombre-curso{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.nombre-curso img{
+    width: 30%;
+    margin-left:60% ;
+}
+
+.nombre-curso h1{
+    height: 60%;
+    margin: 0;
+    background-color: #26c6da;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
