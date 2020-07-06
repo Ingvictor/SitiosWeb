@@ -160,6 +160,11 @@ footer nav{
     margin: 0 10px;
 }
 
+.iconos-miembros img{ 
+    width: 80%;
+}
+
+
 .imagenes-nosotros{
     margin-top: 50px;
     display: grid;
@@ -225,9 +230,118 @@ footer nav{
 
 .texto-curso{
     margin-right: 60px;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
 .texto-curso h2{
     text-align: center;
+}
+
+.ptm  ul {
+   list-style: none; /* Eliminar viñetas de lista */
+   padding: 0;
+   margin: 0;
+}
+  
+.ptm li {
+    padding-left: 16px;
+}
+  
+.ptm  li:before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #26c6da; 
+}
+
+/***Curso-apps**********
+************************
+************************/
+.apps-curso{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.apps-curso img{
+    width: 30%;
+    margin-left:60% ;
+}
+
+.apps-curso h1{
+    height: 60%;
+    margin: 0;
+    background-color: #26c6da;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+/******Curso-videojuegos*******
+************************
+************************/
+.videojuegos-curso{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.videojuegos-curso img{
+    width: 30%;
+    margin-left:60% ;
+}
+
+.videojuegos-curso h1{ 
+    height: 60%;
+    margin: 0;
+    background-color:#9ccc65 ;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+/******Curso-diseño 3D*******
+************************
+************************/
+.diseno3d-curso{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.diseno3d-curso img{
+    width: 30%;
+    margin-left:60% ;
+}
+
+.diseno3d-curso h1{ 
+    height: 60%;
+    margin: 0;
+    background-color:#ec407a;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+/******Curso Desarrollo Web*******
+************************
+************************/
+.desarrolloweb-curso{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.desarrolloweb-curso img{
+    width: 30%;
+    margin-left:60% ;
+}
+
+.desarrolloweb-curso h1{ 
+    height: 60%;
+    margin: 0;
+    background-color:#ec407a;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 10px;
 }
