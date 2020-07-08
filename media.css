@@ -11,48 +11,48 @@ img{
 
 h1{font-size: 38px; color: #616161;}
 h2{font-size: 32px; color: #616161;}
-h3{font-size: 26px; color: #616161;}
+h3{font-size: 30px; color: #616161;}
 h4{font-size: 20px; color: #616161;}
 
+    header nav{
+        height: 100px;
+        background-color: white;
+        box-shadow: none;
+    }
 
+    nav .brand-logo{
+        height: 100px;
+        left: 15%;
+    }
 
-header nav{
-    height: 100px;
-    background-color: white;
-    box-shadow: none;
-}
+    nav .brand-logo img{
+        max-width: 100px;
+    }
 
-nav .brand-logo{
-    height: 100px;
-    left: 15%;
-}
+    nav .logo-nosotros img{
+        width: 200px;
+    }
 
-nav .brand-logo img{
-    max-width: 100px;
-}
+    header nav ul{
+        height: 100px;
+    }
 
-nav .logo-nosotros img{
-    width: 200px;
-}
-
-header nav ul{
-    height: 100px;
-}
-
-header ul a{
-    color: #616161;
-    font-size: 20px;
-} 
-.header-index{
-    height:650px;
-}  
-.header-main-pic{
-    width: 100%;
-    height: 550px;
-    background-image: url('../assets/img/plantilla.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+    header ul a{
+        color: #616161;
+        font-size: 20px;
+    } 
+    .header-index{
+        height:120px;
+        border: solid 10px black;
+    }  
+    .header-main-pic{
+        width: 100%;
+        height: 550px;
+        background-image: url('../assets/img/banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+        border: solid 10px black;
 }
 
 
@@ -79,11 +79,11 @@ header ul a{
     max-height: 25vh; 
 }
 
-.icon h2{
+.icon h3{
     text-transform:uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* font-size: 30px;  */
+    font-size: 30px; 
 }
 
 .icon p{
@@ -91,17 +91,17 @@ header ul a{
     margin-bottom: 30px;
     padding:0px 10px 0px 10px;
     /* text-align: justify; */
-  }      
+  }        border: solid 10px black;
+
 
 .contacto-index{
-    background-image: url('../assets/img/plantilla2-index.png');
+    background-image: url('../assets/img/encuentra.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 400px;
     color: white;
 }
-
 .contacto-index h4{
     margin:30px 0 30px 0;
 }
@@ -389,124 +389,3 @@ header ul a{
     margin-left: 15%;
 }
 
-.sidenav h5{
-    margin-left: 30px;
-    color: white;
-}
-.sidenav li>a>i.material-icons {
-    margin-right: 10px;
-    color: white;
-} 
-.sidenav li a{
-    color: white;
-}
-
-/* Inician los media Query */
-
-@media screen and (max-width: 768px){
-    h1{font-size: 28px; color: #616161;}
-    h2{font-size: 22px; color: #616161;}
-    h3{font-size: 16px; color: #616161;}
-    h4{font-size: 10px; color: #616161;}
-
-    .header-index {
-        height: 220px;
-    }
-    header nav{
-        height: 50px;
-        background-color:;
-        box-shadow: none;
-    }
-    nav .brand-logo{
-        height: 10px;
-        left: 80%;
-    }
-    nav .brand-logo img{
-        max-width: 50px;
-    }
-    .material-icons{
-        color:gray;
-    }
-    .header-main-pic{
-        max-width: 100%;
-        height: 180px;
-        background-image: url('../assets/img/plantilla.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:contain;
-        margin-top: 0;
-    }
-
-    .registro-titulo{
-        margin-bottom: 0px;
-    }
-
-    .iconos-index {
-        display: block;
-    }
-    .icon{
-        margin-top: 0px;
-    }
-
-    .icon img{
-        max-height: 30vh; 
-        margin: 5px;
-    }
-    
-    .icon h2{
-        text-transform:uppercase;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .contacto-index{
-        max-width: 100%;
-        height: 180px;
-        background-image: url('../assets/img/plantilla2-index.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-        margin-top: 0;
-    }
-
-    .contacto-index h4{
-        margin:20px 0 20px 0;
-    }
-    .contacto-index p{
-        margin:20px 0 20px 0;
-    }
-    .blog-index{
-        display: block;
-    }
-    
-    .blog-index .robot{
-        display: block;
-        text-align: justify;
-    }
-    .blog-index .imagen{
-        margin: 0 20px;
-    }
-    
-    .Descripcion-robot h2{
-        margin: 0px 20px  10px 20px;
-    }
-    .Descripcion-robot p{
-        margin: 0px 20px;
-    }
-
-    .card.horizontal{
-        display: block;
-        align-items: center;
-    }
-    
-    
-    .tarjeta{
-        height: 35%;
-        margin-left: 0px;  
-        margin-bottom: 40px;
-    }
-    .tarjeta img{
-        display: block;
-        margin-left: 50%;
-    }
-}

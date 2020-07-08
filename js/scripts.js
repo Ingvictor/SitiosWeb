@@ -4,6 +4,7 @@ console.log("1");
     'use strict';
     document.addEventListener('DOMContentLoaded',function(){
         console.log("2");
+        
     });
 })();
 
