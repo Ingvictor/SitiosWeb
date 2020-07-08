@@ -19,17 +19,32 @@
         **********************************
         *******************************-->
     <header class="header-nosotros">
-      <nav class="container">
-        <a href="index.html" class="logo-nosotros brand-logo valign-wrapper">
-            <img class="responsive-img left" src="assets/img/logo.png" alt="Logo">
-        </a>
-        <ul class="right valign-wrapper ">
+      <nav class="nav-wrapper ">
+        <div class="container ">
+          <a href="index.html" class="brand-logo text-darken-4">
+            <img class="hide-on-lar-and-down right" src="assets/img/favicon.png" alt="Logo">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down text-darken-4 valign-wrapper">
             <li><a href="nosotros.html">Nosotros</a></li>
             <li><a href="cursos.html">Cursos</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+          </ul>
+        </div>
     </nav>
+    
+      <ul class="sidenav grey darken-2" id="mobile-demo">
+        <div>
+          <h5>Menú</h5>
+        </div>
+        <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+        <li><a href="nosotros.html"><i class="material-icons">group</i>Nosotros</a></li>
+        <li><a href="cursos.html"><i class="material-icons">build</i>Cursos</a></li>
+        <li><a href="blog.html"><i class="material-icons">description</i>Blog</a></li>
+        <li><a href="contacto.html"><i class="material-icons">email</i>Contacto</a></li>
+      </ul>
+    
     <section class="container valign-wrapper">
       <div class="row">
           <div class="col s12">
@@ -88,25 +103,26 @@
     </section>
     
     <section class="container valign-wrapper center-align">
+    <div class="tarjeta">
       <div class="iconos-miembros">
         <img class="responsive-img" src="assets/img/ejecutivoventas.png">
-        <h3>Ejecutivo <br> en ventas</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aquam,    quia, molestiae numquam mollitia.</p>
+        <h2>Ejecutivo <br> en ventas</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aquam,    quia, molestiae numquam mollitia.</h3>
       </div>
       <div class="iconos-miembros">
         <img class="responsive-img" src="assets/img/disenoindustrial.png">
-        <h3>Diseño <br> industrial</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum a quam,    quia, molestiae numquam mollitia.</p>
+        <h2>Diseño <br> industrial</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum a quam,    quia, molestiae numquam mollitia.</h3>
     </div>
     <div class="iconos-miembros">
         <img class="responsive-img" src="assets/img/tecnologiasemergentes.png">
-        <h3>Tecnlogías <br>Emergentes</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum a quam,      quia, molestiae numquam mollitia.</p>
+        <h3>Tecnlogías <br>Emergentes</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum a quam,      quia, molestiae numquam mollitia.</h3>
     </div>
     <div class="iconos-miembros">
         <img class="responsive-img" src="assets/img/contenidopedagogico.png">
-        <h3>Contenido <br> pedagógico</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum  aquam,        quia, molestiae numquam mollitia.</p>
+        <h2>Contenido <br> pedagógico</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum  aquam,        quia, molestiae numquam mollitia.</h3>
     </div>
     </section>
     
@@ -117,11 +133,11 @@
 
       <div class="imagenes-texto responsive-img">
         <div>
-          <h3>5 años de experiencia</h3>
+          <h2>5 años de experiencia</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam, a adipisci quis voluptatum corporis doloribus eos qui libero rerum labore sed vero, incidunt perferendis blanditiis consequatur hic nobis minus.Quas amet praesentium, est sed veniam eligendi eius eum veritatis soluta quam accusamus porro accusantium nihil suscipit deserunt ipsum sapiente hic aspernatur laudantium esse recusandae illum! Iusto voluptate temporibus nostrum.</p>
         </div>
       </div>
-      
+    </div>
     </section>
 
 
@@ -131,25 +147,22 @@
         <!-- *******Footer*************
         **********************************
         *******************************-->
-    <footer class="foooter">
-        <nav class="container">
-            <ul class="left valign-wrapper">
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Cursos.html">Cursos</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-        <!-- <div class="container "> 
-            <a href="Nosotros.html">Nosotros</a>
-            <a href="Cursos.html">Cursos</a>
-            <a href="Contacto.html">Contacto</a>
-            <a class="btn" href="Contacto.html">Registrate</a>
-       </div> -->
-    </footer>
+     <!-- *******Footer*************
+    **********************************
+    *******************************-->
+    <footer class="footer">
+      <div class="section">
+          <p>&copy; Todos los Derechos Reservados 2020 </p>
+      </div>
+  </footer>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          M.AutoInit();
+  });
+  </script>
 </body>
 </html>

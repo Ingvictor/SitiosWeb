@@ -7,6 +7,7 @@ body {
 }
 img{
     max-width: 100%;
+    margin: auto;
 }
 
 h1{font-size: 38px; color: #616161;}
@@ -463,7 +464,7 @@ header ul a{
 
     .contacto-index{
         max-width: 100%;
-        height: 180px;
+        height: 200px;
         background-image: url('../assets/img/plantilla2-index.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -471,10 +472,10 @@ header ul a{
         margin-top: 0;
     }
 
-    .contacto-index h4{
-        margin:20px 0 20px 0;
+    .contacto-index h3{
+        margin:0px 0 20px 0;
     }
-    .contacto-index p{
+    .contacto-index h4{
         margin:20px 0 20px 0;
     }
     .blog-index{
@@ -510,4 +511,36 @@ header ul a{
     .card-image{
         margin: auto;
     }
+    .iconos-miembros h2{
+        margin-top: 10px;
+    }
+    .iconos-miembros h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .imagenes-nosotros{
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+    .imagenes-texto{
+        display: block;
+        margin: auto;
+        padding: 10px;
+
+    }
+    .formulario-contacto{
+        display: block;
+    }
+    .formulario{
+        padding: 30px 10px 10px 10px;
+    }
+    .iconos-contacto{
+        margin: 10px 0 0 20px;
+    }
+    .iconos-contacto img{
+        margin: 10px 10px;
+    }
+    
+}
 }
