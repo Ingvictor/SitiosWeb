@@ -165,7 +165,10 @@ header ul a{
     color:white;
     font-weight: bold;
 }
-
+.tarjeta-miembros{
+    display: flex;
+    justify-content: space-between;
+}
 .iconos-miembros { 
     margin: 0 10px;
 }
@@ -507,6 +510,12 @@ header ul a{
     }
     .tarjeta img{
         display: block;
+    }
+    .tarjeta-miembros{
+        display: block;
+        height: 35%;
+        margin-left: 0px;  
+        margin-bottom: 40px;
     }
     .card-image{
         margin: auto;
