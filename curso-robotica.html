@@ -19,17 +19,31 @@
         **********************************
         *******************************-->
     <header class="header-nosotros">
-      <nav class="container">
-        <a href="index.html" class="logo-nosotros brand-logo valign-wrapper">
-            <img class="responsive-img left" src="assets/img/logo.png" alt="Logo">
-        </a>
-        <ul class="right valign-wrapper">
+      <nav class="nav-wrapper ">
+        <div class="container ">
+          <a href="index.html" class="brand-logo text-darken-4">
+            <img class="hide-on-lar-and-down right" src="assets/img/favicon.png" alt="Logo">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down text-darken-4 valign-wrapper">
             <li><a href="nosotros.html">Nosotros</a></li>
             <li><a href="cursos.html">Cursos</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+          </ul>
+        </div>
     </nav>
+    
+      <ul class="sidenav grey darken-2" id="mobile-demo">
+        <div>
+          <h5>Menú</h5>
+        </div>
+        <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+        <li><a href="nosotros.html"><i class="material-icons">group</i>Nosotros</a></li>
+        <li><a href="cursos.html"><i class="material-icons">build</i>Cursos</a></li>
+        <li><a href="blog.html"><i class="material-icons">description</i>Blog</a></li>
+        <li><a href="contacto.html"><i class="material-icons">email</i>Contacto</a></li>
+      </ul>
     <section class="section ">
         <div class="nombre-curso valign-wrapper">
             <img src="assets/img/icono-robotica.png" alt="iconos-apps">
@@ -131,5 +145,10 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+    });
+  </script>
 </body>
 </html>
