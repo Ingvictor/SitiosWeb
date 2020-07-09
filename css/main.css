@@ -230,8 +230,8 @@ header ul a{
     padding-left: 20px;
     border-radius: 10px;
 }
-
-.header-cursos{
+/* curso róbotica */
+.header-cursos-robotica{
     width: 100%;
     height: 400px;
     background-image: url('../assets/img/robotica.png');
@@ -274,6 +274,14 @@ header ul a{
 /***Curso-apps**********
 ************************
 ************************/
+.header-cursos-apps{
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/img/apps.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .apps-curso{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -297,6 +305,14 @@ header ul a{
 /******Curso-videojuegos*******
 ************************
 ************************/
+.header-cursos-videojuegos{
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/img/videojuegos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .videojuegos-curso{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -320,6 +336,14 @@ header ul a{
 /******Curso-diseño 3D*******
 ************************
 ************************/
+.header-cursos-diseno3d{
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/img/modelado3d.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .diseno3d-curso{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -343,6 +367,14 @@ header ul a{
 /******Curso Desarrollo Web*******
 ************************
 ************************/
+.header-cursos-desarrolloweb{
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/img/web.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .desarrolloweb-curso{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -576,7 +608,7 @@ header ul a{
         width: 50%;
         margin-left:40% ;
     }
-    .header-cursos{
+    .header-cursos-robotica{
         width: 100%;
         height: 400px;
         background-image: url('../assets/img/robotica.png');
@@ -619,5 +651,57 @@ header ul a{
         padding-right: 8px;
         color: #26c6da; 
     }
+    /************ Curso Videojuegos***** */
+    .header-cursos-videojuegos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../assets/img/videojuegos.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .videojuegos-curso img{
+        width: 50%;
+        margin-left:40% ;
+    }
+    /************ Curso Modelado 3D***** */
+    .header-cursos-diseno3d{
+        width: 100%;
+        height: 400px;
+        background-image: url('../assets/img/modelado3d.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .diseno3d-curso img{
+        width: 50%;
+        margin-left:40% ;
+    }
+    /************ Curso Apps***** */
+    .header-cursos-diseno3d{
+        width: 100%;
+        height: 400px;
+        background-image: url('../assets/img/apps.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .apps-curso img{
+        width: 50%;
+        margin-left:40% ;
+    }
     
+    /************ Curso Web***** */
+    .header-cursos-desarrolloweb{
+        width: 100%;
+        height: 400px;
+        background-image: url('../assets/img/web.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .desarrolloweb-curso img{
+        width: 50%;
+        margin-left:40% ;
+    }
 }
