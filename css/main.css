@@ -678,13 +678,13 @@ header ul a{
         margin-left:40% ;
     }
     /************ Curso Apps***** */
-    .header-cursos-diseno3d{
+    .header-cursos-apps{
         width: 100%;
-        height: 400px;
-        background-image: url('../assets/img/apps.png');
+        height: 300px;
+        background-image: url('../assets/img/AppsChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
     .apps-curso img{
         width: 50%;
