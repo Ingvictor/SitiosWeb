@@ -602,19 +602,19 @@ header ul a{
     .nombre-curso{
         display: grid;
         grid-template-columns: 30% 70%;
-        height: 60px;
+        height: 70px;
     }
     .nombre-curso img{
-        width: 50%;
+        width: 60%;
         margin-left:40% ;
     }
     .header-cursos-robotica{
         width: 100%;
-        height: 400px;
-        background-image: url('../assets/img/robotica.png');
+        height: 300px;
+        background-image: url('../assets/img/RoboticaChica .jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
     
     .contenido-curso{
@@ -654,27 +654,37 @@ header ul a{
     /************ Curso Videojuegos***** */
     .header-cursos-videojuegos{
         width: 100%;
-        height: 400px;
-        background-image: url('../assets/img/videojuegos.png');
+        height: 300px;
+        background-image: url('../assets/img/VideojuegosChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+    }
+    .videojuegos-curso{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 70px;
     }
     .videojuegos-curso img{
-        width: 50%;
+        width: 60%;
         margin-left:40% ;
     }
     /************ Curso Modelado 3D***** */
     .header-cursos-diseno3d{
         width: 100%;
-        height: 400px;
-        background-image: url('../assets/img/modelado3d.png');
+        height: 300px;
+        background-image: url('../assets/img/DiseñoChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+    .diseno3d-curso{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 70px;
+    }
     .diseno3d-curso img{
-        width: 50%;
+        width: 60%;
         margin-left:40% ;
     }
     /************ Curso Apps***** */
@@ -686,22 +696,32 @@ header ul a{
         background-position: center;
         background-size: contain;
     }
+    .apps-curso-curso{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 70px;
+    }
     .apps-curso img{
-        width: 50%;
+        width: 60%;
         margin-left:40% ;
     }
     
     /************ Curso Web***** */
     .header-cursos-desarrolloweb{
         width: 100%;
-        height: 400px;
-        background-image: url('../assets/img/web.png');
+        height: 300px;
+        background-image: url('../assets/img/WebChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+    .desarrolloweb-curso{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 70px;
+    }
     .desarrolloweb-curso img{
-        width: 50%;
+        width: 60%;
         margin-left:40% ;
     }
 }
