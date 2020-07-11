@@ -615,11 +615,11 @@ header ul a{
     }
     .header-cursos-robotica{
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-image: url('../assets/img/RoboticaChica .jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
     
     .contenido-curso{
@@ -659,11 +659,11 @@ header ul a{
     /************ Curso Videojuegos***** */
     .header-cursos-videojuegos{
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-image: url('../assets/img/VideojuegosChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
     .videojuegos-curso{
         display: grid;
@@ -677,7 +677,7 @@ header ul a{
     /************ Curso Modelado 3D***** */
     .header-cursos-diseno3d{
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-image: url('../assets/img/DiseñoChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -695,11 +695,11 @@ header ul a{
     /************ Curso Apps***** */
     .header-cursos-apps{
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-image: url('../assets/img/AppsChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
     .apps-curso-curso{
         display: grid;
@@ -714,7 +714,7 @@ header ul a{
     /************ Curso Web***** */
     .header-cursos-desarrolloweb{
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-image: url('../assets/img/WebChica.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -724,6 +724,9 @@ header ul a{
         display: grid;
         grid-template-columns: 30% 70%;
         height: 70px;
+    }
+    .desarrolloweb-curso h1{
+        font-size: 22px;
     }
     .desarrolloweb-curso img{
         width: 60%;
