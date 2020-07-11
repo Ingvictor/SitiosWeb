@@ -402,7 +402,7 @@ header ul a{
 .formulario-contacto{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 600px;
+    max-height: 100%;
 }
 
 .formulario{
@@ -417,7 +417,7 @@ header ul a{
 }
 
 .iconos-contacto img{
-    width: 20%;
+    width: 10%;
     margin: 0px;
     padding-right:10px ;
 }
@@ -727,7 +727,7 @@ header ul a{
     }
     .desarrolloweb-curso h1{
         font-size: 22px;
-    }
+     }
     .desarrolloweb-curso img{
         width: 60%;
         margin-left:40% ;
