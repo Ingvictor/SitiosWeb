@@ -200,6 +200,21 @@ header ul a{
     font-weight: bold;
 }
 
+/******** blog********
+************************
+************************/
+.header-blog{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-image: url('../assets/img/paginaconstruccion.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+    
+}
+
 /******** Cursos********
 ************************
 ************************/
@@ -448,6 +463,7 @@ header ul a{
     .sidenav .collapsible {
         margin: 0px 15px;
     }
+
     h1{font-size: 28px; color: #616161;}
     h2{font-size: 22px; color: #616161;}
     h3{font-size: 16px; color: #616161;}
@@ -472,6 +488,9 @@ header ul a{
     }
     .material-icons{
         color:gray;
+    }
+    .btn-large .material-icons{
+        color:white;
     }
     .header-main-pic{
         max-width: 100%;
