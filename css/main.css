@@ -442,10 +442,12 @@ header ul a{
 .sidenav li a{
     color: white;
 }
-
 /* Inician los media Query */
 
 @media screen and (max-width: 768px){
+    .sidenav .collapsible {
+        margin: 0px 15px;
+    }
     h1{font-size: 28px; color: #616161;}
     h2{font-size: 22px; color: #616161;}
     h3{font-size: 16px; color: #616161;}
