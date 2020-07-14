@@ -159,6 +159,7 @@ header ul a{
 
 .tarjeta-nosotros{
     padding: 5px 24px 24px 24px;
+    height: 250px;
 }
 
 .tarjeta-nosotros h5{
@@ -171,7 +172,8 @@ header ul a{
     margin: 0px;
 }
 .iconos-miembros { 
-    margin: 0 5px;
+    margin: 0 30px;
+    text-align: center;
 }
 .iconos-miembros h3{ 
     margin: 0 10px;
@@ -207,7 +209,7 @@ header ul a{
     margin-top: 50px;
     width: 100%;
     height: 200px;
-    background-image: url('../assets/img/paginaconstruccion.jpeg');
+    background-image: url('../assets/img/construccion-06.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -751,5 +753,4 @@ header ul a{
         width: 60%;
         margin-left:40% ;
     }
-
 }
