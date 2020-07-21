@@ -442,6 +442,11 @@ header ul a{
 .iconos-contacto span{
     margin-left: 5px;
 }
+.error{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 .icono-imagen img{
     width: 100%;
