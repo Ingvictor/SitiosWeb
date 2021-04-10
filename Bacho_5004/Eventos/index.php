@@ -48,7 +48,6 @@ if( isset($_POST['email']) && isset($_POST['password']) && isset($_POST['passwor
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
