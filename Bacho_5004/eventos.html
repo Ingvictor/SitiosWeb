@@ -1,0 +1,172 @@
+ <section class="contenedor cambio-seccion">
+      <a id="adios" class="waves-effect waves-light btn">Adios</a>
+      <button id="hola" class="waves-effect waves-light btn" onclick="saludar()">Hola</button>
+ </section>
+
+
+<script type="text/javascript">
+  const boton1 = document.getElementById('hola');
+  const boton2 = document.getElementById('adios');
+
+  boton2.addEventListener('click',despedir);
+
+  function saludar(){
+    alert('HOLA mundo desde JS');
+  }
+
+  function despedir(){
+    alert('ADIOS mundo desde JS');
+  }
+
+</script>
+
+//////////////////////Color de fondo/////////////
+ const fondo = document.querySelector('body');
+ 
+  const boton1 = document.querySelector('.btn1');
+  
+  boton1.addEventListener('click',function(){
+    fondo.style.backgroundColor = '#700440';
+  });
+
+  //function Color1(){
+  //  fondo.style.backgroundColor = '#700440';
+  //}
+  function Color2(){
+    fondo.style.backgroundColor = '#9f4aa3';
+  }
+  function Color3(){
+    fondo.style.backgroundColor = '#c1aed5';
+  }
+  function Color4(){
+    fondo.style.backgroundColor = '#3c2c64';
+////////////////////////////////////////////////////
+
+////////////Ocultar elementos ////////////////
+ const fondo = document.querySelector('body');
+ 
+  const boton1 = document.querySelector('.btn1');
+  const boton2 = document.querySelector('.btn2');
+  const boton3 = document.querySelector('.btn3');
+  const boton4 = document.querySelector('.btn4');
+
+  const magia = document.querySelector('.btn');
+
+  magia.addEventListener('click',function(){
+
+    if(boton1.style.display != 'none'){
+      magia.textContent = 'Mostrar';
+      boton1.style.display = 'none';
+      boton2.style.display = 'none';
+      boton3.style.display = 'none';
+      boton4.style.display = 'none';
+      }
+    else{
+      magia.textContent = 'Ocultar';
+      boton1.style.display = 'block';
+      boton2.style.display = 'block';
+      boton3.style.display = 'block';
+      boton4.style.display = 'block';
+    }
+
+  });
+
+
+///////////////// animación del botón /////////////////////
+ const magia = document.querySelector('.tema');
+
+  magia.addEventListener('mouseenter',function(){
+    this.className = 'tema2 col s2';
+  });
+
+  magia.addEventListener('mouseout',function(){
+    this.className = 'tema col s2';
+  });
+
+///////////////delay////////////////////
+setTimeout(function(p1,p2,p3){
+    console.log('p1');
+    console.log('p2');
+    console.log('p3');
+  },3000, 'argumento 1','argumento 1','argumento 1');
+
+
+//////////// inputText////////////////
+const input = document.getElementById('first_name');
+  input.addEventListener('keydown',function(e){
+    if(e.key == '@'){
+      alert('No se aceptan caracteres especiales');
+    }
+  });
+
+
+
+////////////// Teclado entrada ////////////////
+ const input = document.getElementById('first_name');
+  input.addEventListener('keydown',function(e){
+    if(e.key == '@'){
+      alert('No se aceptan caracteres especiales');
+    }
+  });
+ 
+////////////Submit ///////////////////////
+
+
+
+const formulario = getElementById('curse-form');
+
+formulario.addEventListener('submit',function(){
+	
+	e.preventDefault();
+	let titulo = getElementById ('title-form').value;
+	let descripcion =  getElementById ('description-form').value;
+	console.log(titulo);
+	console.log(titulo);
+});
+
+
+///////////// Cambiar valores /////////////////
+
+
+const checkbox = document.getElementBtId('checkbox');
+checkbox.addEventListener('change',function(){
+	console.log('Cambió el valor');
+});
+
+//////////  DOMContentLoaded //////////////
+
+Este evento sirve para primero cargar el script, esto aplica cuando necesitas 
+colocar la etiqueta script en el encabezado
+
+https://developer.mozilla.org/es/docs/Web/API/Window/DOMContentLoaded_event
+
+
+////// Terminos y condiciones ///////////
+
+form.addEventListener('submit',function(e){
+    e.preventDefault();
+    let nombre = document.getElementById('first_name').value;
+    let apellido = document.getElementById('last_name').value;
+    let correo = document.getElementById('email').value;
+    
+    var checkBox1 = document.getElementById("checkbox1");
+    var checkBox2 = document.getElementById("checkbox2");
+
+    if (checkBox1.checked == true && checkBox2.checked == true ){
+      console.log('aceptó los terminos y condiciones');
+      agregarTexto(nombre,apellido,correo);
+    } else {
+      alert('Acepta los terminos y condiciones');
+    }
+});
+
+
+
+
+
+
+
+
+
+
+

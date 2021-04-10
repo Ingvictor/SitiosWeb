@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'Mr-robot';
+    src: url(../mr-robot/MR-ROBOT.ttf);
+}
+
+nav {
+    font-family: Mr-robot;
+    color: #fff;
+    background-color:#fa0463;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.contenedor{
+    max-width: 80.5%;
+    margin: 0 auto;
+}
+
+.cambio-seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+/*     ////////////////////    */
+
+
+
+.btn1 {
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #700440;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    margin: 1px;
+}
+
+.btn2 {
+    display: none;
+    color: #fff;
+    background-color: #9f4aa3;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    margin: 1px;
+}
+
+.btn3 {
+    display: none;
+    color: #fff;
+    background-color: #c1aed5;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    margin: 1px;
+
+}
+.btn4 {
+    display: none;
+    color: #fff;
+    background-color: #3c2c64;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    margin: 1px;
+}
+
+.tema{
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    margin: 1px;
+}
+
+.tema2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    margin: 1px;
+
+}
+
+
+.Colapso{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    align-items: flex-end;
+}
+
+.row .col.m1 {
+    width: 2%;
+    height: 2%;
+}

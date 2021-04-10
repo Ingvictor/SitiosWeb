@@ -1,0 +1,33 @@
+/////Acceso dependiendo la edad ///////////
+///// Archivo views //////////
+
+from django.http import HttpResponse
+from gpiozero import RGBLED
+
+led = RGBLED(red = 21, green = 20, blue = 19)
+
+def funcion(request):
+	return HttpResponse('Aun funciona')
+	
+def acceso(request,name,age):
+	if age < 18:
+		message = 'Lo siento {}! no tienes edad para acceder'.format(name)
+		led.color = (1, 1, 1)
+	else:
+		message = 'Hola' + name + 'bienvenido'
+		led.color = (1, 1, 1)
+	
+	return HttpResponse(message)	
+
+
+////// Archivo urls //////////
+
+from django.contrib import admin
+from django.urls import path
+from practica1 import views
+
+urlpatterns = [
+    path('My-URL/', views.funcion),
+    path('Acceso/<str:name>/<int:age>/', views.acceso)
+]
+

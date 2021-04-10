@@ -1,0 +1,18 @@
+
+//////////// Hola Mundo en Django /////////
+/////////// En archivo url ////////
+
+from django.contrib import admin
+from django.urls import path
+from django.http import HttpResponse
+
+
+def funcion(request):
+	return HttpResponse('Si funcionó')
+	
+
+urlpatterns = [
+    path('My-URL', funcion),
+]
+
+//////////////////////////////////////////

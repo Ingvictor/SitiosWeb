@@ -1,0 +1,51 @@
+.Encabezado{
+    background-color: #0000ff;  
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 480px){
+    .Cuerpo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.Cuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Parte1{
+    flex-basis: 60%;
+    padding: 0 20px;
+}
+
+.Parte2{
+    flex-basis: calc(40% - 20px);
+    padding: 0 20px;
+}
+
+.Imagen{
+    display: flex;
+}
+
+.Imagen img{
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+
+.Footer{
+    background-color: #0000ff;  
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}

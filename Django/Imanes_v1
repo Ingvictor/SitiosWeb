@@ -1,0 +1,66 @@
+///// mostrar imagenes /////
+////Archivo post views/////////
+
+from django.http import HttpResponse
+from datetime import datetime
+posts = [
+	{
+		'name': 'Imagen 1',
+		'user': 'Tony Stark',
+		'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
+		'picture': 'https://picsum.photos/200/300',
+	},
+	
+	{
+		'name': 'Imagen 2',
+		'user': 'Black Widow',
+		'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
+		'picture': 'https://picsum.photos/200/300',
+	},
+	
+	{
+		'name': 'Imagen 3',
+		'user': 'Thor',
+		'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
+		'picture': 'https://picsum.photos/id/237/200/300',
+	}
+]
+
+def imagenes(request):
+	content = []
+	for post in posts:
+		content.append("""
+			<p><strong>{name}</strong></p>
+			<p><small>{user}</small></p>
+			<p><small>{timestamp}</small>	</p>
+			<figure><img src="{picture}"/></figure>
+			
+		""".format(**post))
+	return HttpResponse('<br>'.join(content))
+	
+
+
+/////////// Archivo URLS /////////////
+
+    path('posts/', posts_views.imagenes)
+	
+	
+	
+///////Archivo settings ///////
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    
+    # local APPs
+    'posts',
+]
+	
+	
+	
+	

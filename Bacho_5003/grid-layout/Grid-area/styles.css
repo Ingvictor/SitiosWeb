@@ -1,0 +1,43 @@
+.contenedor{
+    display: grid;
+    height: 100vh;
+    grid-template: 20% 30% 30% 20% / repeat(2, 1fr);
+    grid-template-areas: "header header" "main main" "contenido1 contenido2" "footer footer";
+}
+
+.header{
+    border:1px solid black;
+    background-color: lightblue;
+    grid-area: header;
+}
+.main{
+    display: grid;
+    grid-template: 1fr / 60% 40%;
+    border: 1px solid red;
+    grid-area: main;
+    background-color: lightblue;
+    margin:10px 80px;
+}
+.main-content{ 
+    background-color: lightcoral;
+}
+.sidebar{
+    background-color: peru;
+}
+.contenido1{
+    margin:10px 0px 10px 80px;
+    border:1px solid black;
+    background-color: red;
+    grid-area: contenido1;
+}
+.contenido2{
+    margin:10px 80px 10px 0px;
+    border:1px solid black;
+    background-color: green;
+    grid-area: contenido2;
+}
+.footer{
+    border:1px solid black;
+    background-color: yellow;
+    grid-area: footer;
+}
